@@ -1,8 +1,6 @@
 import PropTypes from "prop-types";
 
 TodoList.propTypes = {
-  todo: PropTypes.object.isRequired,
-  setTodo: PropTypes.func.isRequired,
   tasks: PropTypes.array.isRequired,
   setTasks: PropTypes.func.isRequired,
 };
