@@ -44,10 +44,10 @@ function TodoList({ tasks, setTasks }) {
           {t.task}
         </label>
         <button
-          className="bg-red-500 px-2 py-1 rounded-sm text-gray-50 hover:bg-red-700"
+          className="bg-red-500 px-2 py-1 rounded-md text-gray-50 hover:bg-red-700"
           onClick={deleteTodo}
         >
-          Close
+          Delete
         </button>
       </li>
     );
