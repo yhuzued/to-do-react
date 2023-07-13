@@ -28,7 +28,7 @@ function TodoList({ tasks, setTasks }) {
       <li
         key={t.id}
         id={t.id}
-        className="flex justify-between gap-1 mx-3 my-2 align-center bg-gray-50 hover:bg-gray-100 items-center p-3"
+        className="flex justify-between gap-2 mx-3 my-2 align-center bg-gray-100 hover:bg-gray-15 items-center p-3"
       >
         <input
           type="checkbox"
@@ -39,7 +39,7 @@ function TodoList({ tasks, setTasks }) {
         />
         <label
           htmlFor={t.id + "-checkbox"}
-          className="w-full p-1 text-lg peer-checked:line-through peer-checked:text-slate-400"
+          className="w-full p-1 peer-checked:line-through peer-checked:text-slate-400"
         >
           {t.task}
         </label>
