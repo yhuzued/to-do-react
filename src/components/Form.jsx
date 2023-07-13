@@ -32,20 +32,20 @@ export default function Form({ todo, setTodo, tasks, setTasks }) {
       className="mb-2 flex flex-col gap-2"
       onSubmit={handleSubmit}
     >
-      <label htmlFor="todo">new todo</label>
+      <label htmlFor="todo">New Todo</label>
       <input
         type="text"
         name="todo"
         id="todo"
-        className="border-2 border-blue-300 focus:border-blue-500 outline-none w-full p-1"
+        className="border-2 border-slate-300 pb-1 focus:border-slate-500 outline-none w-full p-1"
         onChange={handleInput}
         autoFocus
       />
       <button
         type="submit"
-        className="bg-cyan-500 px-5 py-1 text-gray-50 hover:bg-cyan-600 w-full"
+        className="bg-cyan-700 text-sm rounded-sm px-5 py-2 text-gray-50 hover:bg-cyan-900 w-full"
       >
-        Submit
+        Create
       </button>
     </form>
   );
